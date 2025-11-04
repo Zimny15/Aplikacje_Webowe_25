@@ -1,16 +1,88 @@
 html {
-      background-color: #DDBEAA;
-      height: 100vh;
+  background-color: #ddbeaa;
+  height: 100vh;
 }
 
 body {
-      height: 100vh;
-      margin: 0;
+  height: 100vh;
+  margin: 0;
 }
 
 .main-container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- cwiczenie1.html --- */
+.autor span {
+  color: blue;
+  font-weight: bold;
+}
+
+/* --- cwiczenie2.html --- */
+
+.football-table {
+  width: 80%;
+  margin: 2rem auto;
+  border: 2px solid red;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.football-table th {
+  background-color: #a50044;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.football-table td {
+  border: 1px solid black;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.football-table tr:hover {
+  background-color: #edbb00;
+  color: #222;
+}
+
+/* --- cwiczenie3.html --- */
+
+.container-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 100px 0 100px 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.football-img-cwiczenie3 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
