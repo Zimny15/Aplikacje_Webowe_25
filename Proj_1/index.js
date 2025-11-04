@@ -24,3 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+function updateClock() {
+  const now = new Date();
+  const time = now.toLocaleTimeString("pl-PL");
+  const clock = document.getElementById("clock");
+  if (clock) clock.textContent = `Aktualny czas: ${time}`;
+}
+setInterval(updateClock, 1000);
+updateClock();
